@@ -1,7 +1,36 @@
 ﻿body {
-  color: blue;
+  min-height: 100svh;
+  font-family: "Kreon", serif;
 }
 
-p {
-  color: red;
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 679px;
+  margin: 0 auto;
+}
+
+.menuWrapper {
+  margin-left: 29px;
+}
+
+.title {
+  display: flex;
+  width: 262px;
+  height: 121px;
+}
+
+.titleName {
+  font-size: 6rem;
+}
+
+.titleDescription {
+  font-size: 1.25rem;
+}
+
+.main {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 6rem;
 }
