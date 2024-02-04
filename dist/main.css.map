@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":";;;AAAA;EACE,WAAW;AACb;;AAEA;EACE,UAAU;AACZ","sources":["webpack://cat/./src/index.css"],"sourcesContent":["body {\r\n  color: blue;\r\n}\r\n\r\np {\r\n  color: red;\r\n}\r\n"],"names":[],"sourceRoot":""}
