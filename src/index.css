@@ -1,31 +1,66 @@
 ﻿body {
-  min-height: 100svh;
   font-family: "Kreon", serif;
+}
+
+#app-root {
+  min-height: 100svh;
+}
+
+.container {
+  display: flex;
+  min-height: 100svh;
+  align-items: center;
+  flex-flow: column nowrap;
+  overflow: hidden;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   max-width: 679px;
-  margin: 0 auto;
+  min-width: 500px;
+  width: 100%;
+  /* flex: 0 0 200px; */
 }
 
 .menuWrapper {
   margin-left: 29px;
 }
 
+@media (max-width: 600px) {
+  .menuWrapper {
+    margin-left: 0;
+  }
+  .header {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 510px) {
+  .cat {
+    display: none;
+  }
+}
+
 .title {
   display: flex;
-  width: 262px;
+  min-width: 262px;
   height: 121px;
+  line-height: normal;
 }
 
 .titleName {
   font-size: 6rem;
+  min-width: 165px;
 }
 
 .titleDescription {
   font-size: 1.25rem;
+  align-self: center;
+  padding-left: 10px;
+  width: 87px;
 }
 
 .main {
@@ -33,4 +68,8 @@
   color: #ffffff;
   text-align: center;
   font-size: 6rem;
+  min-height: 170px;
+  padding-top: 40px;
+  width: 100%;
+  flex: 1 1 0%;
 }

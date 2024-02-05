@@ -3,21 +3,23 @@ import { createRoot } from "react-dom/client";
 import "normalize.css";
 import "./index.css";
 
+import Select from "./components/Select";
+
 const container = document.getElementById("app-root")!;
 const root = createRoot(container);
 root.render(
   <>
     <div className="container">
       <header className="header">
-        <div className="menuWrapper">
+        <section className="menuWrapper">
           <div className="title">
             <div className="titleName">CAT</div>
-            <div className="titleDescription">currencies academic terms</div>
+            <p className="titleDescription">currencies academic terms</p>
           </div>
           <div className="currencySelect">
-            <select name="currency" id="currency"></select>
+            <Select />
           </div>
-        </div>
+        </section>
         <div className="cat">
           <img src="kitten.png" alt="Kitten" />
         </div>
