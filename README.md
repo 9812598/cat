@@ -1,8 +1,8 @@
-# cat test task description will be here
+# cat test task description
 
 https://crm23.ru/
 
-to loanch app localy run n terminal:
+to loanch the app localy run in terminal:
 
 ```
 git clone https://github.com/9812598/cat.git
