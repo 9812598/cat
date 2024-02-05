@@ -12,6 +12,7 @@ then go to the project folder
 
 ```
 cd cat
+npm i
 npm start
 ```
 
